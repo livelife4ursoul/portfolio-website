@@ -345,11 +345,11 @@ thead {
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 1 250px;
 	        flex: 0 1 250px;
-}
-.navigation-list {
+	}
+	.navigation-list {
 	font-size: 25px;
 	border-bottom: 4px solid var(--sec-color);
-}
+	}
 	.profile, 
 	.about, 
 	.contact,
@@ -386,12 +386,12 @@ thead {
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 1 450px;
 	        flex: 0 1 450px;
-}
+	}
 
-.navigation-list {
+	.navigation-list {
 	font-size: 40px;
 	border-bottom: 5px solid var(--sec-color);
-}
+	}
 	.profile, 
 	.about, 
 	.contact,
