@@ -298,6 +298,10 @@ thead {
 	.projects {
 		max-width: 420px;
 	}
+	.profile__portrait {
+		width: 200px;
+		height: auto;
+	}		
 }
 
 @media all and (min-width: 572px) and (max-width: 750px) {
