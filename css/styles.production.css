@@ -177,6 +177,11 @@ thead {
  	        align-items: center;
  }
 
+ .social-media__icon {
+	height: 30px;
+	width: 30px;
+ }
+
 .navigation-list {
 	list-style-type: none;
 	border-bottom: 3px solid var(--sec-color);
@@ -357,5 +362,59 @@ thead {
 	body {
 		font-size: 18px;
 	}
+}
+
+@media all and (min-width: 1900px) {
+
+	thead {
+		height: auto;
+		font-size: 45px;
+	}
+
+	.page-header__item {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 1 400px;
+		        flex: 0 1 400px;
+	}
+	.page-header__logo {
+	width: 450px;
+	bottom: 80px;
+	left: 40px;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 450px;
+	        flex: 0 1 450px;
+}
+.social-media__icon {
+	width: 60px;
+	height: 60px;
+}
+
+.navigation-list {
+	font-size: 40px;
+	border-bottom: 5px solid var(--sec-color);
+}
+	.profile, 
+	.about, 
+	.contact,
+	.projects {
+	max-width: 1400px;
+	}
+	h1 {
+		font-size: 65px;
+	}
+	h2 {
+		font-size: 55px;
+	}
+	h3 {
+		font-size: 45px;
+	}
+	body {
+		font-size: 35px;
+	}
+}
+
+.profile__portrait {
+	width: 450px;
+	height: auto;
 }
 /* End Responsive Section */
