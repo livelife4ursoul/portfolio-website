@@ -177,11 +177,6 @@ thead {
  	        align-items: center;
  }
 
- .social-media__icon {
-	height: 30px;
-	width: 30px;
- }
-
 .navigation-list {
 	list-style-type: none;
 	border-bottom: 3px solid var(--sec-color);
@@ -384,10 +379,6 @@ thead {
 	    -ms-flex: 0 1 450px;
 	        flex: 0 1 450px;
 }
-.social-media__icon {
-	width: 60px;
-	height: 60px;
-}
 
 .navigation-list {
 	font-size: 40px;
@@ -411,10 +402,11 @@ thead {
 	body {
 		font-size: 35px;
 	}
+	.profile__portrait {
+		width: 450px;
+		height: auto;
+	}
 }
 
-.profile__portrait {
-	width: 450px;
-	height: auto;
-}
+
 /* End Responsive Section */
