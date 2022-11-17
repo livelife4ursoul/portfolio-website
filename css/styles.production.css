@@ -274,6 +274,10 @@ thead {
 	.contact,
 	.projects {
 		max-width: 325px;
+	}
+	.profile__portrait {
+		width: 200px;
+		height: auto;
 	}		
 }
 
