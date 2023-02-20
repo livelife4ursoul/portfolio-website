@@ -48,20 +48,31 @@
 				<h2>Send me a message</h2>
 			</div>
 			<form class="contact-form" action="#" method="post" id="contact-form" target="_self">
-				<label class="standard-label" for="fname">First name:</label><br>
-				<input type="text" id="fname" name="fname" required><br>
-			
-				<label class="standard-label" for="lname">Last name:</label><br>
-				<input type="text" id="lname" name="lname" required><br>
-			
-				<label class="standard-label" for="contact-email">Email:</label><br>
-				<input type="email" id="contact-email" required><br>
+				<div class = "input-wrapper">
+					<label class="standard-label" for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname" required><br>
+				</div>
 
-				<label class="standard-label" for="contact-tel">Telephone:</label><br>
-				<input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+				<div class = "input-wrapper">
+					<label class="standard-label" for="lname">Last name:</label><br>
+					<input type="text" id="lname" name="lname" required><br>
+				</div>
+			
+				<div class= "input-wrapper">
+					<label class="standard-label" for="contact-email">Email:</label><br>
+					<input type="email" id="contact-email" required><br>
+				</div>
 
-				<label class="standard-label" for="contact-message">Message: </label><br>
-				<textarea maxlength="240" id="contact-message" required></textarea><br>
+				<div class= "input-wrapper">
+					<label class="standard-label" for="contact-tel">Telephone:</label><br>
+					<input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+				</div>
+
+				<div class= "input-wrapper">
+					<label class="standard-label" for="contact-message">Message: </label><br>
+					<textarea maxlength="240" id="contact-message" required></textarea><br>
+				</div>
+
 				<button type="button">Send Message</button>
 			</form>
 		</div>
@@ -75,6 +86,7 @@
 			<!-- Linkedin logo -->
 			<a href="https://www.linkedin.com/in/jessica-eales-90152024a?trk=people-guest_people_search-card"><img src="img/linkedin_icon.svg" alt="LinkedIn"></a>	
 			</div>
-		</footer>	
+		</footer>
+		<script src="js/scripts.js"></script>	
 	</body>
 </html>

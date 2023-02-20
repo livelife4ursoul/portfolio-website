@@ -235,6 +235,15 @@ thead {
 	margin: 0;
 }
 
+.input-wrapper {
+	margin-bottom: 10px;
+}
+
+.error-message {
+	color: red;
+	font-size: 10px;
+}
+
 /* start grid fallback*/
 .project-grid__item {
 	display: inline-block;
