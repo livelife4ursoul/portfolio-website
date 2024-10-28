@@ -24,10 +24,10 @@ Background Color (Black): #000
  	color: var(--sec-color);
  }
 
- a:visited {
+ /* a:visited { */
  	/* visited link */
- 	color: var(--pri-color);
- }
+ 	/* color: var(--pri-color);
+ } */
 
  a:hover, a:focus {
  	/* No underlining when hovering over a link */
